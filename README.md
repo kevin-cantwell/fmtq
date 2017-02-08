@@ -13,7 +13,7 @@ $ echo "foo
 "foo\nbar\nbaz\n"
 ```
 
-You can choose to return a double quoted (default) string or a single-quoted (using the `-s` flag) string:
+You can choose to return a double quoted string (default) or a single-quoted string (using the `-s` flag):
 
 ```
 $ echo -n "This is a single quote ' and this is a double quote \"" | fmtq
