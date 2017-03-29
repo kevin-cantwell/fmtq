@@ -7,7 +7,7 @@ The `fmtq` command tool simply parses stdin and returns a double quoted string s
 ## Usage
 
 ```
-$ $ echo "foo
+$ echo "foo
 > \"bar\"
 > baz" | fmtq
 "foo\n\"bar\"\nbaz\n"
